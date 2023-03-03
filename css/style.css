@@ -95,18 +95,43 @@ header .hero{
 }
 
 .information{
-    background-color: aqua;
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+.information h1{
+    text-align: center;
+    margin: 75px 0 -75px 0;
+    color: #1F2937;
 }
 
 .inform_box{
-    background-color: aqua;
-    border: 1px solid red;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .img_box{
-    background-color: aqua;
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+.img_box img{
+    width: 200px;
+    height: 250px;
+    border: 1px solid #3882F6;
+    border-radius: 20px;
+}
+.img_box p{
+    margin: 20px 0 ;
+    color: black;
+    text-align: center;
+    word-break: break-word;
+    width: 80%;
 }
 
 .main{
