@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: white;
+}
+body{
+    width: 100%;
+}
+.view{
+    width: 65%;
+}
+
+header{
+    background-color: #1F2937;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+
+}
+
+nav p{
+    background-color: #1F2937;
+
+}
+
+nav ul{
+    background-color: #1F2937;
+    display: flex;
+    gap: 35px;
+    padding: 16px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    background-color: #1F2937;
+
+}
+
+.nav_items{
+    background-color: #1F2937;
+
+}
+
+
+header .hero{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero_text{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+}
+.hero_text p{
+    margin: 32px 0;
+}
+.hero_text button{
+    background-color: #3882F6;
+    padding: 8px 16px;
+    border: none;
+    border-radius:7px ;
+    align-self: start;
+}
+
+.head_img{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+}
+.head_img img{
+    width: 500px;
+    min-height: 300px;
+}
+
+.information{
+    background-color: aqua;
+    border: 1px solid red;
+}
+
+.inform_box{
+    background-color: aqua;
+    border: 1px solid red;
+}
+
+.img_box{
+    background-color: aqua;
+    border: 1px solid red;
+}
+
+.main{
+    background-color: aqua;
+    border: 1px solid red;
+}
+
+.main_body{
+    background-color: aqua;
+    border: 1px solid red;
+}
+
+.main_body_text{
+    background-color: aqua;
+    border: 1px solid red;
+}
+
+.main_body_by{
+    background-color: aqua;
+    border: 1px solid red;
+}
+
+.sign-up{
+    background-color: aqua;
+    border: 1px solid red;
+}
+
+.sign_up_box{
+    background-color: aqua;
+    border: 1px solid red;
+}
+.sign_up_text{
+    background-color: aqua;
+    border: 1px solid red;
+}
+
+.sign_up_button{
+    background-color: aqua;
+    border: 1px solid red;
+}
+
+footer{
+    background-color: aqua;
+    border: 1px solid red;
+}
